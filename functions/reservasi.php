@@ -15,6 +15,7 @@ if (isset($_POST['btn_reservasi'])) {
 						nama_pemesan 	= '$nama_pemesan',
 						email 			= '$email', 
 						check_in 		= '$check_in', 
+						check_out 		= '', 
 						jumlah_paket 	= '$jumlah_paket', 
 						nama_trip 		= '$nama_trip', 
 						no_hp 			= '$no_hp', 
@@ -57,6 +58,7 @@ if (isset($_POST['admin_reservasi'])) {
 						set nama_pemesan = '$nama_pemesan', 
 						nama_trip = '$nama_trip', 
 						check_in = '$check_in', 
+						check_out = '', 
 						jumlah_paket = '$jumlah_paket', 
 						email = '$email', 
 						no_hp = '$no_hp',
@@ -87,6 +89,7 @@ if (isset($_POST['cust_reservasi'])) {
 	$query_pesan	= "INSERT into pemesanan set 
 						nama_pemesan 	= '$nama_pemesan', 
 						check_in 		= '$check_in',  
+						check_out 		= '',  
 						jumlah_paket 	= '$jumlah_paket', 
 						nama_trip 		= '$nama_trip', 
 						email 			= '$email', 

@@ -63,6 +63,7 @@ if (isset($_POST['tambah_trip'])) {
 								ket_trip = '$ket_trip', 
 								jumlah_hari = '$jumlah_hari', 
 								maks_orang = '$maks_orang', 
+								promo = '',
 								gambar_trip = '$gambar_trip'";
 			$tambah_trip 	= mysqli_query($koneksi, $query_tambah);
 
